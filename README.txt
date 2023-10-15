@@ -25,6 +25,13 @@ def main():
     # Print the average score
     print("Average score across all subjects:", average_score)
 
+    # Display a message based on the average score
+    if average_score >= 70:
+        print("You are doing great!")
+    elif average_score >= 50:
+        print("You are doing okay.")
+    else:
+        print("You may need to work harder.")
+
 if __name__ == "__main__":
     main()
-
